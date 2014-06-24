@@ -6,7 +6,7 @@ class Email
  	 config.api_key = 'key-2md2c5zr02jmtrjdfbutlxhlx9g6f909'
   	config.domain  = 'sandbox63884a781a1f444abd210610b901bd2a.mailgun.org'
 	end
-	def send
+	def send 
 		@mailgun = Mailgun(:api_key => 'key-2md2c5zr02jmtrjdfbutlxhlx9g6f909')
 
 		parameters = {
